@@ -1,4 +1,11 @@
-
+-- phpMyAdmin SQL Dump
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1
+-- Généré le :  ven. 05 avr. 2019 à 04:53
+-- Version du serveur :  10.1.26-MariaDB
+-- Version de PHP :  7.1.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -11,8 +18,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-
-
 --
 -- Base de données :  `meenspy`
 --
@@ -22,11 +27,6 @@ SET time_zone = "+00:00";
 --
 -- Structure de la table `exercise`
 --
-
-
-CREATE DATABASE IF NOT EXISTS mutuelEnsp
-
-
 
 CREATE TABLE `exercise` (
   `id` int(11) NOT NULL COMMENT 'Correspond a l''année de l''exercice',
@@ -312,43 +312,43 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT pour la table `exercise`
 --
 ALTER TABLE `exercise`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Correspond a l''année de l''exercice', AUTO_INCREMENT=32;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Correspond a l''année de l''exercice';
 
 --
 -- AUTO_INCREMENT pour la table `help`
 --
 ALTER TABLE `help`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `loan`
 --
 ALTER TABLE `loan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `repayment`
 --
 ALTER TABLE `repayment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `saving`
 --
 ALTER TABLE `saving`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `session`
 --
 ALTER TABLE `session`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'numéro de la session', AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'numéro de la session';
 
 --
 -- AUTO_INCREMENT pour la table `socialbackground`
 --
 ALTER TABLE `socialbackground`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Contraintes pour les tables déchargées
